@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.cput.assignment1.HilaryClassTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in za.ac.cput.assignment1.HilaryClassTest
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.39 s <<< FAILURE! - in za.ac.cput.assignment1.HilaryClassTest
+TimeoutTest  Time elapsed: 0.334 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at za.ac.cput.assignment1.HilaryClassTest.setUp(HilaryClassTest.java:30)
+
+testIdentity  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at za.ac.cput.assignment1.HilaryClassTest.setUp(HilaryClassTest.java:30)
+
+testDisabled  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at za.ac.cput.assignment1.HilaryClassTest.setUp(HilaryClassTest.java:30)
+
+testEquality  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at za.ac.cput.assignment1.HilaryClassTest.setUp(HilaryClassTest.java:30)
+
+FailingTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at za.ac.cput.assignment1.HilaryClassTest.setUp(HilaryClassTest.java:30)
+
