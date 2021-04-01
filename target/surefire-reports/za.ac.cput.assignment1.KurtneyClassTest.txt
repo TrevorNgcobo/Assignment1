@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: za.ac.cput.assignment1.KurtneyClassTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in za.ac.cput.assignment1.KurtneyClassTest
+Tests run: 6, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 5.115 s <<< FAILURE! - in za.ac.cput.assignment1.KurtneyClassTest
+testFailure  Time elapsed: 0.053 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Test Failed!
+	at za.ac.cput.assignment1.KurtneyClassTest.testFailure(KurtneyClassTest.java:51)
+
+timeout  Time elapsed: 5.019 s  <<< ERROR!
+java.util.concurrent.TimeoutException: timeout() timed out after 5 seconds
+
+testIdentity  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Checks for object Identity between the two classed ==> expected: <za.ac.cput.assignment1.KurtneyClass@9597028> but was: <za.ac.cput.assignment1.KurtneyClass@6069db50>
+	at za.ac.cput.assignment1.KurtneyClassTest.testIdentity(KurtneyClassTest.java:38)
+
