@@ -58,7 +58,7 @@ public class YasmeenClassTest {
     @Test
     public void testEquality() {
         assertEquals(student2,student3);  
-        System.out.println("testEquality has passed");
+        System.out.println("Equality test has passed");
     }
     
     /**
@@ -75,7 +75,7 @@ public class YasmeenClassTest {
     @Test
     @Timeout(value = 1000, unit = TimeUnit.MILLISECONDS)
     void testTimeout() { 
-        System.out.println("Timeout has passed");
+        System.out.println("Timeout method has been executed");
     }
     
     /**
