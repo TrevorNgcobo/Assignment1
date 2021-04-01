@@ -40,7 +40,7 @@ public class YasmeenClass {
 
     @Override
     public String toString() {
-        return "YasmeenClass{" + "age=" + age + ", name=" + name + ", faculty=" + student + '}';
+        return "YasmeenClass{" + "age =" + age + ", name =" + name + ", student =" + student + '}';
     }
     
 }
