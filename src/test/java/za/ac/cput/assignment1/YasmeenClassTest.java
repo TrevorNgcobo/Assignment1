@@ -49,7 +49,7 @@ public class YasmeenClassTest {
     @Test
     public void testIdentity() {
         assertSame(student2,student3);
-        System.out.println("testidentity has passed.");
+        System.out.println("Identity test has passed.");
     }
     
     /**
