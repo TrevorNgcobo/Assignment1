@@ -1,46 +1,42 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.assignment1;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.Ignore;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
-/**
- *
- * @author Killa-Bee
- */
-public class ChantalClassTest {
-    
-    public ChantalClassTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
+import static org.junit.jupiter.api.Assertions.*;
+
+class ChantalClassTest {
+
+    ChantalClass chantalClassZero;
+    ChantalClass chantalClassOne;
+    @BeforeEach
+    void setUp() {
+        chantalClassZero = new ChantalClass();
+        chantalClassOne = new ChantalClass();
     }
 
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
-        
+    void identity(){
+        assertNotSame(chantalClassOne,chantalClassZero);
     }
-    
+    @Test
+    void equality(){
+        assertNotEquals(chantalClassOne,chantalClassZero);
+    }
+    @Test
+    void failing(){
+        assertEquals(chantalClassOne,chantalClassZero);
+    }
+    @Test @Timeout(value = 1)
+    void time(){
+        assertEquals(chantalClassOne,chantalClassZero);
+    }
+
+    @Ignore
+    @Test
+    void capitalize() {
+        assertNotNull(chantalClassOne.capitalize("chantal"));
+    }
 }

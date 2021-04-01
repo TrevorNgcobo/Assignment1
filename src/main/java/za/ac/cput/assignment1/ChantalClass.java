@@ -8,8 +8,15 @@ package za.ac.cput.assignment1;
 
 /**
  *
- * @author Killa-Bee
+ * @author Chantal Niyonzima
  */
 public class ChantalClass {
+    public ChantalClass() {
+    }
+
+    public String capitalize(String test){
+        return test.toUpperCase();
+
+    }
 
 }
