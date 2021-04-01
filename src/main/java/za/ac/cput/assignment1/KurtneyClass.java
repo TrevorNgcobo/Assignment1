@@ -8,8 +8,12 @@ package za.ac.cput.assignment1;
 
 /**
  *
- * @author Killa-Bee
+ * @author Kurtney Jantjies
  */
 public class KurtneyClass {
-
+    int a,b;
+    
+    int sum(int a, int b){
+        return a+b;}
+    
 }
