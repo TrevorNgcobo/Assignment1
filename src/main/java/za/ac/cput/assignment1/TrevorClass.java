@@ -14,6 +14,7 @@ import java.util.*;
  *
  * Trevor Ngcobo
  * 220477019
+   Applications Development Practice Assignment 1
  */
 public class TrevorClass 
 {
