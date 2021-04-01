@@ -6,6 +6,7 @@
 package za.ac.cput.assignment1;
 
 
+import java.util.concurrent.TimeUnit;
 import org.junit.Ignore;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
@@ -55,9 +56,10 @@ public class KurtneyClassTest {
     //Timeout
     @Test
     @Timeout(5)
-    void timeout(){
-        
+    void timeout() throws InterruptedException{
+        TimeUnit.SECONDS.sleep(10);
     }
+    
    //DisablingTest
     @Ignore
     @Test
