@@ -5,12 +5,11 @@
  */
 package za.ac.cput.assignment1;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-import static org.junit.Assert.*;
+
+import org.junit.Ignore;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 
 /**
  *
@@ -18,29 +17,52 @@ import static org.junit.Assert.*;
  */
 public class KurtneyClassTest {
     
-    public KurtneyClassTest() {
-    }
     
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
 
+    //Object Equality
+    
     @Test
-    public void testSomeMethod() {
-        // TODO review the generated test code and remove the default call to fail.
+    void testEquality(){
+        KurtneyClass class1 = new KurtneyClass();
+        int expected = 3;
+        int actual = class1.sum(2,1);
+        assertEquals(expected,actual);
+    }
+    
+    //Object Identity
+    KurtneyClass a = new KurtneyClass();
+    KurtneyClass a1 = new KurtneyClass();
+    
+    @Test
+    void testIdentity(){
+        
+        assertSame(a,a1, "Checks for object Identity between the two classed");
+    }
+    
+    @Test
+    void testNotIdentical(){
+        //Checks if object's not identical
+        assertNotSame(a,a1, "Checks for object Identity between the two classed");
+    }
+    
+    //Failing Test
+    @Test
+    void testFailure(){
+        assertSame(a,a, "Checks for object Identity between the two classed");
+        fail("Test Failed!");
+    }
+    
+    //Timeout
+    @Test
+    @Timeout(5)
+    void timeout(){
         
     }
-    
+   //DisablingTest
+    @Ignore
+    @Test
+    void testIgnore(){
+        //Checks if object's not identical
+        assertNotSame(a,a1, "Checks for object Identity between the two classed");
+    }
 }

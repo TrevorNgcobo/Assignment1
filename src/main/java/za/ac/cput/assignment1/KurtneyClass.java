@@ -11,5 +11,11 @@ package za.ac.cput.assignment1;
  * @author Killa-Bee
  */
 public class KurtneyClass {
-
+    int a,b;
+    
+    int sum(int a, int b){
+        return a+b;
+    }
+    
+    
 }
