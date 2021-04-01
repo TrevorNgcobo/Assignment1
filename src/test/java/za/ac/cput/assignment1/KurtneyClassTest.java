@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 1184b93ee7427730ca037cd2b1cca2a91d9ba2ad
 package za.ac.cput.assignment1;
 
 
@@ -35,13 +32,6 @@ public class KurtneyClassTest {
     KurtneyClass a = new KurtneyClass();
     KurtneyClass a1 = new KurtneyClass();
     
-<<<<<<< HEAD
-=======
-    //Object Identity
-    KurtneyClass a = new KurtneyClass();
-    KurtneyClass a1 = new KurtneyClass();
-    
->>>>>>> 1184b93ee7427730ca037cd2b1cca2a91d9ba2ad
     @Test
     void testIdentity(){
         
@@ -77,8 +67,4 @@ public class KurtneyClassTest {
     }
     
     
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1184b93ee7427730ca037cd2b1cca2a91d9ba2ad
