@@ -14,6 +14,12 @@ public class KurtneyClass {
     int a,b;
     
     int sum(int a, int b){
+<<<<<<< HEAD
         return a+b;}
+=======
+        return a+b;
+    }
+    
+>>>>>>> 1184b93ee7427730ca037cd2b1cca2a91d9ba2ad
     
 }

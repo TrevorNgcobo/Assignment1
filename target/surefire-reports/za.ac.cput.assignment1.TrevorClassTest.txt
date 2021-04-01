@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: za.ac.cput.assignment1.TrevorClassTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in za.ac.cput.assignment1.TrevorClassTest
+testEquality2  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError
+	at za.ac.cput.assignment1.TrevorClassTest.testEquality2(TrevorClassTest.java:58)
+
