@@ -65,4 +65,6 @@ public class KurtneyClassTest {
         //Checks if object's not identical
         assertNotSame(a,a1, "Checks for object Identity between the two classed");
     }
+    
+    
 }
